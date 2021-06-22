@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+a {
+    color: black;
+}
+
+body {
+    background: url(bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* .box {
+    backdrop-filter: blur(3px);
+} */
+
+.box, .description {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translateY(-50%);
+    width: 450px;
+    height: auto;
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 7);
+    border: 1px solid rgba(255, 255, 255, .3);
+    border-right: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid rgba(255, 255, 255, .2);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box p {
+    margin-top: 90px;
+}
+
+.box p a {
+    color: #4A8FFF;
+}
+
+.inpB {
+    position: relative;
+}
+
+.inpB input,
+.inpB2 input {
+    background: transparent;
+    border: none;
+    width: 100%;
+    border-bottom: #fff solid 1px;
+    color: #fff;
+    outline: none;
+    font-size: 100%;
+    padding: 5px 0;
+    margin-bottom: 20px;
+}
+
+#date_label {
+    top: -18px;
+    left: 0;
+    color: #4A8FFF;
+    font-size: 80%;
+}
+
+.show_pass, .forgot_pass a {
+    position: absolute;
+    right: 0;
+    color: #4A8FFF;
+    font-size: 80%;
+    margin-right: 20px;
+    margin-top: -45px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.forgot_pass a {
+    font-size: 85%;
+    margin-top: 10px;
+    left: 40px;
+    width:fit-content;
+}
+
+.forgot_pass a {
+    color: #4A8FFF;
+}
+
+.inpB label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 0;
+    pointer-events: none;
+    transition: .3s;
+}
+
+.inpB input:focus ~ label, 
+.inpB input:valid ~ label {
+    top: -18px;
+    left: 0;
+    color: #4A8FFF;
+    font-size: 80%;
+}
+
+.btn {
+    width: 100px;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-weight: 450;
+    background-color: rgb(0, 183, 255);
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    float: right;
+    margin-top: 25px;
+    cursor: pointer;
+}
+
+
+
+.description {
+    position: absolute;
+    left: 10%;
+    height: auto;
+    padding: 10px;
+    background: rgba(0, 0, 0, .4);
+}
+
+.description img{
+    width: 150px;
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
+.description p {
+    line-height: 110%;
+    color: #fff;
+    text-indent: 40px;
+    line-height: 190%;
+}
+
+.inpB select {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: #fff solid 1px;
+    color: #fff;
+    font-size: 100%;
+    padding: 5px 0;
+    margin-bottom: 20px;
+}
+
+.inpB select:focus {
+    border-bottom: #bbb solid 1px;
+}
+
+.inpB select option {
+    color: #000;
+}
+
+
+
+
+
+
+                                                /*recover password*/
+
+.box.forgot_password {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.inpB2 input{
+
+}

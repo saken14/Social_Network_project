@@ -1,0 +1,18 @@
+1) kit_db.sql надо сделать импорт в базу данных MySQL
+
+2) Конфигурация находится в файле includes/db.php
+
+надо изменить там username и password от phpMyAdmin.
+
+
+
+functions/delete_post.php
+functions/functions.php
+includes/db.php
+
+delete_image.php
+delete_video.php
+
+
+
+3) Все.
